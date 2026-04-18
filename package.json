@@ -1,0 +1,17 @@
+{
+  "name": "raposa-hello-arduino-uno",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Arduino Uno hello world project with automated simulator tests and Wokwi-ready VS Code config.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test tests/simulator.test.mjs",
+    "benchmark": "node tests/benchmark.mjs"
+  },
+  "devDependencies": {
+    "avr8js": "^0.21.0"
+  }
+}
